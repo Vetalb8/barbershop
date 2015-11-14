@@ -1,10 +1,13 @@
-# PayPaul
-[![Build Status]()](https://travis-ci.org/Vetalb8/)
+# Barbershop
 
 Верстка макета *Barbershop* от [htmlacademy](https://htmlacademy.ru)
 
 ## Макет
 ![alt text](design/jpg/Barbershop-index.jpg)
+![alt text](design/jpg/Barbershop-index2.jpg)
+![alt text](design/jpg/Barbershop-item.jpg)
+![alt text](design/jpg/Barbershop-price.jpg)
+![alt text](design/jpg/Barbershop-shop.jpg)
 
 ## Как посмотреть?
 
