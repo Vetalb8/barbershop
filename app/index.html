@@ -36,12 +36,12 @@
       <div class="container">
         <nav class="left">
           <ul>
-            <li><a href="#">ГЛАВНАЯ</a></li>
-            <li><a href="#">ИНФОРМАЦИЯ</a></li>
-            <li><a href="#">НОВОСТИ</a></li>
-            <li><a href="#">ПРАЙС-ЛИСТ</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">КОНТАКТЫ</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
           </ul>
         <div class="login">
           <a href="#" class="login-button">Вход</a>
@@ -52,7 +52,77 @@
     <!-- END header -->
     <!-- BEGIN main -->
     <main class="main">
-      
+      <div class="container">
+        <div class="logo">
+          <img src="../images/logo.png" alt="Барбершоп «Бородинский»">
+        </div>
+        <div class="feature">
+          <article class="col4">
+            <h3>Быстро</h3>
+            <div class="feature-icon"></div>
+            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+          </article>
+          <article class="col4">
+            <h3>Круто</h3>
+            <div class="feature-icon"></div>
+            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </article>
+          <article class="col4">
+            <h3>Дорого</h3>
+            <div class="feature-icon"></div>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          </article>
+        </div>
+        <div class="main-content">
+          <section class="col6">
+            <h2>Новости</h2>
+            <ul class="news">
+              <li>
+                <a href="#">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки
+                </a>
+                <time datetime="2013-09-25">25 сентября</time>
+              </li>
+              <li>
+                <a href="#">
+                В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
+                </a>
+                <time datetime="2013-09-19">19 сентября</time>
+              </li>
+            </ul>
+            <button class="btn">Все новости</button>
+          </section>
+          <section class="col6">
+            <h2>Фотогалерея</h2>
+            <div class="gallery">
+              <a href="#" class="gallery-image">
+                <img src="../images/gallery-photo.jpg" alt="Фото салон">
+              </a>
+              <button class="btn gallery-prev">Назад</button>
+              <button class="btn gallery-next">Вперед</button>
+            </div>
+          </section>
+        </div>
+        <div class="main-content">
+          <section class="col6">
+            <h2>Контактная информация</h2>
+            <p>Барбершоп «Бородинский» Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8 Телефон: +7 (495) 666-02-66</p>
+            <p>Время работы: пн — пт: с 10:00 до 22:00 сб — вс: с 10:00 до 19:00</p>
+            <button class="btn">Как проехать</button>
+            <button class="btn">Обратная связь</button>
+          </section>
+          <section class="col6">
+            <h2>Записаться</h2>
+            <p>Укажите желаемую дату и время, и мы свяжемся с вами для подтверждения брони</p>
+            <form action="#">
+              <input type="text" name="date" value="" placeholder="Дата">
+              <input type="text" name="time" value="" placeholder="Время">
+              <input type="text" name="name" value="" placeholder="Ваше имя">
+              <input type="text" name="phone" value="" placeholder="Телефон">
+              <button type="submit" class="btn">Отправить</button>
+            </form>
+          </section>
+        </div>
+      </div>
     </main>
     <!-- END main -->
     <!-- BEGIN footer -->
