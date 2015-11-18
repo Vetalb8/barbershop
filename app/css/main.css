@@ -7,9 +7,10 @@
 }
 
 body {
-  font: 1em 'PT Sans', Arial, Helvetica, sans-serif;
+  font: bold 14px/24px 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  color: #000;
+  text-transform: uppercase;
   background: #888;
-  color: #333;
 }
 
 /* CSS Grid 
@@ -150,3 +151,31 @@ body {
 
 /* Main 
 ==================================*/
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header 
+==================================*/
+
+header {
+  background: #888;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav li {
+  display: inline-block;
+}
