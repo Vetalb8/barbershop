@@ -167,7 +167,7 @@ a {
 ==================================*/
 
 header {
-  background: #888;
+  background: #000;
 }
 
 header nav ul {
@@ -178,4 +178,15 @@ header nav ul {
 
 header nav li {
   display: inline-block;
+}
+
+header nav a {
+  display: block;
+  padding: 26px 21px;
+  font-size: 16px;
+  color: #fff;
+}
+
+header nav li:hover {
+  background: #fff;
 }
