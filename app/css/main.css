@@ -1,6 +1,5 @@
 * {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  /*	transition: all 0.2s;*/
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -249,4 +248,76 @@ header {
 
 .login-button-enter:hover:before {
   background-position: 0 -309px;
+}
+
+/* Footer 
+==================================*/
+
+footer {
+  background: #252525 url("../images/footer-bg.png") repeat;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 80px;
+}
+
+.footer-contacts a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover {
+  text-decoration: none;
+}
+
+.footer-social {
+  float: left;
+  text-align: center;
+}
+
+.social-btn {
+  display: inline-block;
+  margin: 0 2px;
+  width: 43px;
+  height: 43px;
+  font-size: 0;
+  background: #000 url("../images/icons.png") no-repeat top left;
+}
+
+.social-btn-vk {
+  background-position: 9px 15px;
+}
+
+.social-btn-fb {
+  background-position: 16px -30px;
+}
+
+.social-btn-inst {
+  background-position: 11px -76px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 320px;
+  text-align: right;
+}
+
+.footer-copyright a {
+  color: #fff;
+}
+
+.footer-copyright p {
+  margin: 0;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+
+.footer-copyright a:hover {
+  background: #fff;
+  color: #000;
 }
