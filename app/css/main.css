@@ -202,6 +202,20 @@ header {
   background: #242424;
 }
 
+.top-menu .active {
+  position: relative;
+}
+
+.top-menu .active:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  height: 5px;
+}
+
 .login-menu {
   margin-top: 23px;
   float: right;
