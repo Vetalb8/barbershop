@@ -1,24 +1,24 @@
 * {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  font: bold 14px/24px 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  font: bold 14px 'PT Sans Narrow', Arial, Helvetica, sans-serif;
   color: #000;
   text-transform: uppercase;
-  background: #888;
 }
 
 /* CSS Grid 
 ==================================*/
 
 .container {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .left {
@@ -154,39 +154,12 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-size: 30px;
 }
 
 a {
   text-decoration: none;
   color: #000;
-}
-
-/* Header 
-==================================*/
-
-header {
-  background: #000;
-}
-
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-header nav li {
-  display: inline-block;
-}
-
-header nav a {
-  display: block;
-  padding: 26px 21px;
-  font-size: 16px;
-  color: #fff;
-}
-
-header nav li:hover {
-  background: #fff;
 }
