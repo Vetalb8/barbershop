@@ -175,11 +175,19 @@ body {
   padding: 10px 0;
   color: #fff;
   cursor: pointer;
+  margin-right: 18px;
 }
 
 .btn:hover,
 .btn:active {
   background: #663d15;
+}
+
+input,
+button {
+  font: bold 14px "PT Sans Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  border: none;
 }
 
 /* Header 
@@ -490,7 +498,7 @@ footer {
 }
 
 .gallery-next {
-  right: 0;
+  right: -18px;
 }
 
 .gallery-image {
@@ -510,4 +518,67 @@ footer {
 
 .main-contacts p:last-of-type {
   margin-bottom: 43px;
+}
+
+/* Appointment 
+==================================*/
+
+.appointment-form {
+  width: 300px;
+}
+
+.appointment-form p {
+  margin-bottom: 28px;
+}
+
+.appointment-form input {
+  background: #f9f6f3;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 140px;
+  border: 2px solid #000;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.appointment-form  input:focus {
+  border: 2px solid #663d15;
+}
+
+.appointment-form  input:nth-child(2n) {
+  margin-right: 0;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder {
+  color: #000;
+}
+
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder {
+  color: #000;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder {
+  color: #000;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #000;
+}
+
+.appointment-form .btn {
+  background: #000;
+  clear: both;
+  width: 100%;
+  height: 43px;
+  margin-top: 10px;
+  border: none;
+}
+
+.appointment-form .btn:hover {
+  background: #663d15;
 }
