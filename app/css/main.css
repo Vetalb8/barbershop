@@ -470,3 +470,33 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
+
+/* Gallery 
+==================================*/
+
+.gallery {
+  width: 300px;
+  height: 265px;
+  position: relative;
+}
+
+.gallery .btn {
+  position: absolute;
+  bottom: 0;
+}
+
+.gallery-prev {
+  left: 0;
+}
+
+.gallery-next {
+  right: 0;
+}
+
+.gallery-image {
+  display: block;
+  width: 286px;
+  height: 164px;
+  border: 7px solid #fff;
+  background: #ccc;
+}
