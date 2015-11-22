@@ -177,6 +177,11 @@ body {
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:active {
+  background: #663d15;
+}
+
 /* Header 
 ==================================*/
 
@@ -223,6 +228,10 @@ header {
   left: 20px;
   right: 20px;
   height: 5px;
+}
+
+.top-menu .active:hover {
+  background: none;
 }
 
 .login-menu {
@@ -418,6 +427,7 @@ footer {
 	#f8f3f0 url("../images/main-bg.png");
   padding: 52px 80px;
   margin-bottom: 35px;
+  line-height: 24px;
 }
 
 .main-section::after {
@@ -435,4 +445,28 @@ footer {
 .main-right-column {
   float: right;
   width: 310px;
+}
+
+.main-section h2 {
+  width: 330px;
+  margin: 0 0 35px 0;
+}
+
+/* News 
+==================================*/
+
+.main-news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-news li {
+  margin-bottom: 26px;
+}
+
+.main-news time {
+  text-transform: none;
+  font-weight: normal;
+  font-style: italic;
 }
