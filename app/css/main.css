@@ -582,3 +582,52 @@ input[type="password"]::placeholder {
 .appointment-form .btn:hover {
   background: #663d15;
 }
+
+/* Modal login 
+==================================*/
+
+.modal-login {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 10;
+  width: 450px;
+  margin: 120px 0 0 500px;
+  padding: 45px 80px;
+  color: black;
+  background: #f8f3f0 url("../images/main-bg.png");
+  -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.7);
+          box-shadow: 0 30px 50px rgba(0,0,0,.7);
+}
+
+.model-login-close {
+  position: absolute;
+  top: 10px;
+  right: -35px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  background: url("../images/icons.png") no-repeat center;
+  background-position: 0 -432px;
+  font-size: 0;
+}
+
+.modal-login h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+
+.modal-login p {
+  margin: 0 0 10px 0;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  margin: 0 0 9px 0;
+  padding: 8px 15px;
+  width: 240px;
+}
